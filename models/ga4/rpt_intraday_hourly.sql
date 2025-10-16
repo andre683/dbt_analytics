@@ -6,8 +6,8 @@
 ) }}
 
 {% set tz = "America/New_York" %}
-{% set run_day = "DATE_SUB(CURRENT_DATE('" ~ tz ~ "'), INTERVAL 1 DAY)" %}
-{% set suffix  = "FORMAT_DATE('%Y%m%d', " ~ run_day ~ ")" %}
+{% set run_date = var("run_date", "DATE_SUB(CURRENT_DATE('" ~ tz ~ "'), INTERVAL 1 DAY)") %}
+{% set suffix = "FORMAT_DATE('%Y%m%d', " ~ run_date ~ ")" %}
 
 {% set brands = [
   {"brand": "law", "src": "ga4_law"},
