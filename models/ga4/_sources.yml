@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: ga4_law
+    database: tough-healer-395417
+    schema: analytics_287163560
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (LAW)"
+
+  - name: ga4_wsj
+    database: tough-healer-395417
+    schema: analytics_287832387
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (WSJ)"
+
+  - name: ga4_tcm
+    database: tough-healer-395417
+    schema: analytics_358775017
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (TCM)"
+
+  - name: ga4_npr
+    database: tough-healer-395417
+    schema: analytics_373836794
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (NPR)"
+
+  - name: ga4_ngo
+    database: tough-healer-395417
+    schema: analytics_391406454
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (NGO)"
+
+  - name: ga4_osw
+    database: tough-healer-395417
+    schema: analytics_425709539
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (OSW)"
+
+  - name: ga4_fox
+    database: tough-healer-395417
+    schema: analytics_497294642
+    tables:
+      - name: events_intraday_
+        identifier: "events_intraday_*"
+        description: "GA4 intraday (FOX)"
